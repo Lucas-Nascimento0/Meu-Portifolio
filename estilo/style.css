@@ -194,7 +194,7 @@ section.sobre .flex{
     border-radius: 50%;
     border: none;
     background-color: #001eff;
-    font-size: 22;
+    font-size: 22px;
     cursor: pointer;
     margin: 0px 10px;
 }
@@ -202,4 +202,53 @@ section.sobre .flex{
 .sobre .txt-sobre .btn-social button:hover{
 box-shadow: 0px 0px 10;
 transform: scale(1.1);
+}
+
+section.portifolio{
+    padding: 80px 4%;
+    box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.164);
+}
+
+section.portifolio .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.img-port{
+    width: 372px;
+    height: 477px;
+    background-color:rgba(0, 0, 255, 0.575);
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 5s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-port:hover{
+    background-position: 100% 100%;
+}
+
+.overlay{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #001eff4b;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600px;
+    color: white;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover{
+    opacity: 1;
 }
