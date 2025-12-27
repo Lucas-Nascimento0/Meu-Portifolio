@@ -243,7 +243,7 @@ section.portifolio .flex{
     justify-content: center;
     font-size: 28;
     font-family: 'Quicksand', sans-serif;
-    font-weight: 600px;
+    font-weight: bold;
     color: white;
     opacity: 0;
     transition: .5s;
